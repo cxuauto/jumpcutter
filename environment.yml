@@ -1,6 +1,6 @@
 channels:
-  - conda-forge
   - defaults
+  - conda-forge
 dependencies:
   - python=3.6
   - cython
@@ -8,13 +8,6 @@ dependencies:
   - ipyparallel
   - ipywidgets
   - numpy
-  - matplotlib
-  - mpi4py
-  - networkx
-  - pandas
-  - scikit-image
-  - scikit-learn
-  - sympy
   - youtube-dl
   - Pillow
   - audiotsm
