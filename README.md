@@ -1,7 +1,7 @@
 # jumpcutter
 Automatically edits videos. Explanation here: https://www.youtube.com/watch?v=DQ8orIurGxw
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cxuauto/jumpcutter/jupyter)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cxuauto/jumpcutter/jupyter?filepath=mybinder.ipynb)
 
 ## Some heads-up:
 
