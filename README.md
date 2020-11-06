@@ -1,6 +1,8 @@
 # jumpcutter
 Automatically edits videos. Explanation here: https://www.youtube.com/watch?v=DQ8orIurGxw
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cxuauto/jumpcutter/jupyter)
+
 ## Some heads-up:
 
 It uses Python 3.
