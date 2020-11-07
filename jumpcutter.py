@@ -13,7 +13,7 @@ import argparse
 from pytube import YouTube
 
 def downloadFile(url):
-    name = YouTube(url).streams.filter(progressive=True , file_extension='mp4').order_by('resolution').desc().first().download()
+    name = YouTube(url).streams.filter(progressive=True ).order_by('resolution').desc().first().download() #, file_extension='mp4'
     newname = name.replace(' ','_')
     os.rename(name,newname)
     return newname
@@ -29,7 +29,7 @@ def copyFrame(inputFrame,outputFrame):
     if not os.path.isfile(src):
         return False
     copyfile(src, dst)
-    if outputFrame%1000 == 999:
+    if outputFrame%2000 == 1999:
         print(str(outputFrame+1)+" time-altered frames saved.")
     return True
 
