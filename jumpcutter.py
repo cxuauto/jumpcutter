@@ -13,7 +13,7 @@ import argparse
 from pytube import YouTube
 
 def downloadFile(url):
-    name = YouTube(url).streams.order_by('resolution').first().download()
+    name = YouTube(url).streams.order_by('resolution').desc().first().download()
     newname = name.replace(' ','_')
     os.rename(name,newname)
     return newname
