@@ -29,7 +29,7 @@ def copyFrame(inputFrame,outputFrame):
     if not os.path.isfile(src):
         return False
     copyfile(src, dst)
-    if outputFrame%2000 == 1999:
+    if outputFrame%5000 == 4999:
         print(str(outputFrame+1)+" time-altered frames saved.")
     return True
 
